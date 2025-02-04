@@ -1,0 +1,54 @@
+# Node.js 
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vscode/
+
+# Directorios de construcción
+dist/
+build/
+.next/
+.out/
+
+# Dependencias específicas de React
+/.eslintcache
+/.parcel-cache
+/.turbo
+/.vite
+.vite/
+
+# Archivos de configuración y entornos
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Archivos de logs y bases de datos
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+/pids
+*.pid
+*.seed
+*.pid.lock
+/db.sqlite
+/db.sqlite-journal
+
+# Cache y archivos temporales
+/.cache
+/tmp
+.DS_Store
+Thumbs.db
+
+# Archivos de sistema y editor
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
